@@ -41,8 +41,8 @@ Severity levels are based on:
 |:---:|:---|:---:|
 | Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $2,500 ~ $5,000 |
 | High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $1,000 ~ $2,500 |
-| Medium (P2) | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities. | $1,000 ~ $1,500 |
-| Low (P3) | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them. | $500 ~ $1,000 |
+| Medium (P2) | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities. | $500 ~ $1,000 |
+| Low (P3) | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them. | $250 ~ $500 |
 
 ### 3. Hardware JS SDK
 | Severity | Description | Reward (USD) |
@@ -123,7 +123,6 @@ The following issues are considered **out of scope**:
 
 **System Design & Business Logic:**
 - Attacks that are accounted for in the system design (e.g., Ethereum network spamming, malicious reputation mining/gaming, administrative malfeasance).
-- Critiques of the OneKey and overall mechanism design. We welcome suggestions and constructive criticism directed to dev@onekey.so.
 - Any activity that could lead to the disruption of our service availability (DoS/DDoS).
 - Issues that require unlikely or impractical user interaction.
 - Perceived security weaknesses without evidence of the ability to demonstrate impact (e.g., missing best practices, functional bugs without security implications, recommended security improvements).
