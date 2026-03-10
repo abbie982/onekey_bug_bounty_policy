@@ -17,21 +17,6 @@ All vulnerability reports must be submitted through one of the following channel
 
 Submissions must target vulnerabilities present on the `master` branch (the main release branch).
 
-<!-- Bounties for potential vulnerabilities include, but are not limited to:
-- Private key handling, storage, and extraction / forensics
-- CI/CD workflow and build pipeline vulnerabilities
-- Domain hijacking and secrets compromise
-- Authorization, authentication, and privilege escalation issues
-// 来源：policy1_doc_security.md:L11-L16, policy3_repo_security.md:L9-L14 -->
-
-<!-- ## Prioritized Focus Areas
-// 来源：policy3_repo_security.md:L19
-
-- Reports demonstrating how an attacker could extract the secret recovery phrase, private key, or mnemonic from a wallet or device.
-- Reports demonstrating how an attacker could make a user's wallet behave in unexpected ways (e.g., signing unintended transactions, displaying incorrect information on confirmation screens).
-- Reports demonstrating supply chain attacks or firmware-level compromises.
-// 来源：policy3_repo_security.md:L21-L23 -->
-
 ## Bounty Amounts
 
 Rewards will be provided according to the rules of this bug bounty program. At the discretion of OneKey, quality, creativity, or novelty of submissions may modify payouts within a given range.
@@ -46,32 +31,32 @@ Severity levels are based on:
 ### 1. APP Monorepo (iOS/Android/MacOS/Linux/Windows/Chrome Extension)
 | Severity | Description | Reward (USD) |
 |:---:|:---|:---:|
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $5,000 ~ $10,000 |
-| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $2,000 ~ $5,000 |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $2,500 ~ $5,000 |
+| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $1,000 ~ $2,500 |
 | Medium (P2) | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities. | $500 ~ $1,000 |
 | Low (P3) | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them. | $250 ~ $500 |
 
 ### 2. Firmware
 | Severity | Description | Reward (USD) |
 |:---:|:---|:---:|
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $6,000 ~ $10,000 |
-| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $3,000 ~ $6,000 |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $2,500 ~ $5,000 |
+| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $1,000 ~ $2,500 |
 | Medium (P2) | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities. | $1,000 ~ $1,500 |
 | Low (P3) | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them. | $500 ~ $1,000 |
 
 ### 3. Hardware JS SDK
 | Severity | Description | Reward (USD) |
 |:---:|:---|:---:|
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $2,000 ~ $4,000 |
-| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $1,400 ~ $2,000 |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $1,500 ~ $3,000 |
+| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $700 ~ $1,500 |
 | Medium (P2) | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities. | $300 ~ $700 |
 | Low (P3) | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them. | $50 ~ $300 |
 
 ### 4. Websites and Applications
 | Severity | Description | Reward (USD) |
 |:---:|:---|:---:|
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $2,000 ~ $4,000 |
-| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $1,400 ~ $2,000 |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $1,500 ~ $3,000 |
+| High (P1) | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities. | $700 ~ $1,500 |
 | Medium (P2) | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities. | $300 ~ $700 |
 | Low (P3) | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them. | $50 ~ $300 |
 
@@ -121,21 +106,6 @@ Submissions will be evaluated by the OneKey security team using multiple criteri
 We utilize the following standards to assist in evaluating vulnerabilities:
 1. **OWASP Risk Rating Methodology**: Considers both **Impact** and **Likelihood**.
 2. **CVSS 3.1 Standards**: Will be used for standard vulnerability rating ([CVSS3.1](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)).
-
-<!-- 3. **OneKey CVSS Scoring Guide**: Tailored specifically to our hardware wallet and software ecosystem to maintain consistency and transparency.
-// 来源：policy3_repo_security.md:L58-L60
-
-| Metric | Options |
-|--------|---------|
-| **Attack Vector (AV)** | **Network (N):** The attack can be executed over a network connection.<br>**Physical (P):** The attack requires physical access to the hardware wallet device.<br>**Local (L):** The attack requires local execution by malicious software/user on the host machine. |
-| **Attack Complexity (AC)** | **High (H):** A successful exploit requires overcoming specific conditions beyond the attacker's control.<br>**Low (L):** No specialized access conditions exist. The attack can be reliably executed. |
-| **Scope (S)** | **Changed (C):** The vulnerability impacts resources beyond capabilities provided by its authorizing scope.<br>**Unchanged (U):** The vulnerability only impacts resources within its authorized scope. |
-| **Privileges Required (PR)** | **High (H):** Requires elevated access (e.g., paired Bluetooth device, USB debug access).<br>**Low (L):** Requires the webpage/dApp to be connected to the wallet.<br>**None (N):** Exploit without prior connection or privilege. |
-| **User Interaction (UI)** | **Required (R):** Exploitation requires some user interaction.<br>**None (N):** Exploitation does not require user interaction. |
-| **Confidentiality Impact (C)**| **High (H):** Disclosure of a cryptographic element in custody.<br>**Low (L):** Disclosure of non-critical user information. |
-| **Integrity Impact (I)** | **High (H):** A cryptographic asset or key security control loses its integrity.<br>**Low (L):** A non-critical user interface element loses its integrity. |
-| **Availability Impact (A)** | **High (H):** Awarded selectively on a case-by-case basis.<br>**Low (L):** Application/device becomes unusable but recoverable via reinstall/reset. |
-// 来源：policy3_repo_security.md:L62-L81 -->
 
 *(Note: As this guide evolves, changes will only apply to new reports. The OneKey team will not make adjustments retroactively to past bounties.)*
 
@@ -191,11 +161,9 @@ OneKey will not pursue legal action against researchers who:
 
 This safe harbor does not extend to activities that violate applicable law or that cause harm to OneKey, its users, or third parties.
 
-<!-- ## Funding Your Wallet
-// 来源：policy3_repo_security.md:L143
+## Funding Your Wallet
 
 To experiment with OneKey without using your own ETH, switch your default network to Sepolia test network and use a faucet such as [Infura Faucet](https://www.infura.io/faucet) to get test funds.
-// 来源：policy3_repo_security.md:L145 -->
 
 ## Program Terms
 
