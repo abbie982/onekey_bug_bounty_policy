@@ -92,34 +92,34 @@ Severity levels are based on:
 ### 1. APP Monorepo (iOS/Android/MacOS/Linux/Windows/Chrome Extension)
 |   Severity    | Description                                                                                                                                                          |  Reward (USD)   |
 | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------: |
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $2,500 ~ $5,000 |
-|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          | $1,000 ~ $2,500 |
-|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |  $500 ~ $1,000  |
-|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |   $250 ~ $500   |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $1,000 ~ $3,000 |
+|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          |  $500 ~ $1,000  |
+|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |   $100 ~ $500   |
+|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |    $0 ~ $100    |
 
 ### 2. Firmware
 |   Severity    | Description                                                                                                                                                          |  Reward (USD)   |
 | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------: |
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $2,500 ~ $5,000 |
-|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          | $1,000 ~ $2,500 |
-|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |  $500 ~ $1,000  |
-|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |   $250 ~ $500   |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $3,000 ~ $5,000 |
+|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          | $1,000 ~ $3,000 |
+|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |  $100 ~ $1,000  |
+|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |    $0 ~ $100    |
 
 ### 3. Hardware JS SDK
 |   Severity    | Description                                                                                                                                                          |  Reward (USD)   |
 | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------: |
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $1,500 ~ $3,000 |
-|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          |  $700 ~ $1,500  |
-|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |   $300 ~ $700   |
-|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |   $50 ~ $300    |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $1,000 ~ $2,000 |
+|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          |  $500 ~ $1,000  |
+|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |   $100 ~ $500   |
+|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |    $0 ~ $100    |
 
 ### 4. Websites and Applications
 |   Severity    | Description                                                                                                                                                          |  Reward (USD)   |
 | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------: |
-| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $1,500 ~ $3,000 |
-|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          |  $700 ~ $1,500  |
-|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |   $300 ~ $700   |
-|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |   $50 ~ $300    |
+| Critical (P0) | Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities. | $1,000 ~ $2,000 |
+|   High (P1)   | High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.                          |  $500 ~ $1,000  |
+|  Medium (P2)  | Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.                                        |   $100 ~ $500   |
+|   Low (P3)    | Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team evaluate whether to fix them.       |    $0 ~ $100    |
 
 *(OneKey reserves the right to adjust bounty amounts at any time without prior notice. Bounty amounts listed represent maximum values per tier, not guaranteed payouts.)*
 
