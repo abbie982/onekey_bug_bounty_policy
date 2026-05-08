@@ -8,12 +8,14 @@ All vulnerability reports must be submitted through one of the following channel
 
 ## Scope
 
-| In Scope                  | Repository/URL                                                     |
-| :------------------------ | :----------------------------------------------------------------- |
-| APP monorepo              | [OneKey APP Monorepo](https://github.com/OneKeyHQ/app-monorepo)    |
-| Firmware                  | [OneKey Firmware](https://github.com/OneKeyHQ/firmware)            |
-| Hardware SDK              | [OneKey Hardware SDK](https://github.com/OneKeyHQ/hardware-js-sdk) |
-| Websites and Applications | *.onekey.so                                                        |
+| In Scope                     | Repository/URL                                                               |
+| :--------------------------- | :--------------------------------------------------------------------------- |
+| APP monorepo                 | [OneKey APP Monorepo](https://github.com/OneKeyHQ/app-monorepo)              |
+| Firmware (Pro)               | [OneKey Firmware Pro](https://github.com/OneKeyHQ/firmware-pro)              |
+| Firmware (Classic 1s)        | [OneKey Firmware Classic_1s](https://github.com/OneKeyHQ/firmware-classic1s) |
+| Firmware (Legacy-Deprecated) | [OneKey Firmware](https://github.com/OneKeyHQ/firmware)                      |
+| Hardware SDK                 | [OneKey Hardware SDK](https://github.com/OneKeyHQ/hardware-js-sdk)           |
+| Websites and Applications    | *.onekey.so                                                                  |
 
 Submissions must target vulnerabilities present on the `master` branch (the main release branch).
 
